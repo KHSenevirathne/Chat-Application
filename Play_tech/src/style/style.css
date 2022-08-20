@@ -1,0 +1,184 @@
+#btnExit:hover{
+    -fx-background-color: #FB0000;
+}
+#btnMinimize:hover{
+    -fx-background-color: #74797F;
+}
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+/*.selected{
+   !* -fx-background-color: #484C54;*!
+}*/
+
+#btnExit,#btnBuy,#btnMinimize,#btnSignIn,#btnSupply,#btnOrder,#btnQuotation,#btnAdd,#btnQuotation,
+#btnPlaceOrder,#btnCancel,#btnNewCustomer,#btnCustomerAdd,#btnUpdate,#btnNewCart{
+    -fx-text-fill: white;
+    -fx-background-radius: 5 10 5 10;
+    -fx-border-width:2;
+    -fx-border-radius: 5 10 5 10;
+    -fx-border-color: #ffc017;
+    -fx-background-color: #000000;
+}
+#btnMoreDetail{
+    -fx-text-fill: #3498db;
+    -fx-background-radius: 5 10 5 10;
+    -fx-border-width:2;
+    -fx-border-radius: 5 10 5 10;
+    -fx-border-color: #000000;
+
+}
+#btnBuy:hover,#btnNewArrivals:hover,#btnS_Offers:hover,#btnSignIn:hover,#btnSupply:hover,#btnOrder:hover,
+#btnQuotation:hover,#btnAdd:hover,#btnMoreDetail:hover,#btnAdd:hover,#btnQuotation:hover,#btnPlaceOrder:hover,
+#btnCancel:hover,#btnNewCustomer:hover,#btnCustomerAdd:hover,#btnUpdate:hover,#btnNewCart:hover{
+    -fx-background-color: #c98200;
+    -fx-text-fill: #000000;
+}
+#anchorePaneForScroll:hover{
+    -fx-background-color:#74797F;
+    -fx-background-radius: 5;
+    -fx-border-color: white;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+}
+.scroll-pane > .viewport,.sp_main > .viewport,.vbox_messages > .viewport {
+-fx-background-color: transparent;
+}
+.scroll-pane{
+    -fx-hbar-policy: NEVER;
+    -fx-vbar-policy: NEVER;
+}
+#vBoxBase{
+    -fx-border-color:  #2B2B2B;
+    -fx-border-width:3;
+    -fx-border-radius: 3;
+}
+#vBoxBase:hover{
+    -fx-border-color: #ffe22b;
+    -fx-border-width: 5;
+    -fx-border-radius: 5;
+    /*-fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;*/
+}
+#lblitemBase{
+    -fx-opacity: .2;
+    -fx-background-color: black;
+    -fx-background-radius: 5;
+}
+#vBoxBase:hover #lblitemBase{
+    -fx-opacity: .4;
+}
+#btnNewArrivals,#btnS_Offers{
+    -fx-background-radius: 5;
+    -fx-border-color: #246698;
+    -fx-border-radius: 5;
+    -fx-border-width: 3;
+}
+#topPane{
+    -fx-background-radius-radius: 10px;
+    -fx-background-color: #35363A;
+    -fx-opacity: .7;
+}
+#topPane:hover{
+    -fx-opacity: 1;
+}
+#btnHome,#btnSettings{
+    -fx-background-radius: 50;
+}
+#btnCafe{
+    -fx-text-fill:  #00EFD9;
+    -fx-border-color: #00EFD9;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+#btnCafe:hover{
+    -fx-border-color:  #FD0000;
+    -fx-text-fill:  #FD0000;
+}
+#vboxButton:hover{
+    -fx-scale-x: 1.03;
+    -fx-scale-y:1.03 ;
+
+}
+#btn{
+    -fx-text-fill:#a5b1c2;
+}
+#btn:hover{
+    -fx-text-fill: White;
+}
+#btnPane{
+    -fx-opacity: 0;
+}
+#btnPane:hover{
+    -fx-opacity: 1;
+}
+#txtLaptopId,#txtBrand,#txtModelId,#txtType,#txtSeries,#txtDescription,#txtQty,#txtPrice,#txtMOreDetails,#txtItemId,#txtItemName,#cmbItemType,
+#txtAddress,#txtContact{
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #aeaeae;
+}
+#txtCustomerId,#txtUserId,#txtUserName,#txtSalary,#txtPassword,#cmbCustomer,#cmbPositionType,#txtFullName,#txtPasswordS{
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #aeaeae;
+}
+#cmbItemType,#cmbCustomer,#cmbPositionType{
+    -fx-font-style: bold;
+    -fx-background-color: #a5b1c2;
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: black;
+}
+
+
+
+#lblBehindImage{
+    -fx-border-color: #aeaeae;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+#btnAdd_,#btnEdit,#btnRemove{
+    -fx-text-fill: white;
+    -fx-background-radius: 5 10 5 10;
+    -fx-border-width:2;
+    -fx-border-radius: 5 10 5 10;
+    -fx-border-color: white;
+}
+#btnAdd_:hover,#btnEdit:hover,#btnRemove:hover{
+    -fx-text-fill: white;
+    -fx-background-radius: 5 10 5 10;
+    -fx-border-width:2;
+    -fx-border-radius: 5 10 5 10;
+    -fx-border-color: white;
+    -fx-background-color: #236698;
+}
+#txtNameWithSpec{
+    -fx-text-alignment: Center;
+    -fx-text-fill: white;
+
+}
+.centeredTextArea .scroll-pane .content .text {
+    -fx-text-alignment: center;
+}
+
+#txtName{
+    margin-left: auto;
+    margin-right: auto;
+    -fx-text-alignment: Center;
+    -fx-text-fill: white;
+}
+.table-view {
+    -fx-background-color: transparent;
+    -fx-background-color: #343A48;
+}
+
+.check-box .box {
+    -fx-background-color:  #236698;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+    -fx-text-fill:  #aeaeae;
+
+}
+#txtDetails{
+    -fx-hbar-policy: NEVER;
+    -fx-vbar-policy: NEVER;
+    -fx-text-fill: #a5b1c2;
+}
